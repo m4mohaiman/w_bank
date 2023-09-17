@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* navbar css */
+.navbar-area {
+  background-color: #03733a;
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 51px;
+}
+
+.navbar-area__title p {
+  margin-bottom: 0;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* navbar css */
+
+.custom-label {
+  font-size: 18px;
+  color: #707070;
+  text-align: left;
+}
+
+.logo-area-context{
+  margin-bottom: 46px;
+}
+
+
+.logo-area-context p {
+  font-size: 33px;
+  font-weight: bold;
+  color: #707070;
+}
+
+.after-logo-content-item ul {
+  padding: 0;
+  margin: 0;
+}
+
+.after-logo-content-item ul li {
+  list-style: none;
+  font-size: 18px;
+  color: #707070;
+}
+
+.after-logo-content-item ul li{
+  margin-bottom: 40px;
+}
+
+.after-logo-content-item ul li:last-child{
+  margin-bottom: 0;
+}
+
+
+.after-logo-content-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+
+/* footer */
+.footer{
+  border-top:1px solid #707070;
+  padding: 25px 0px;
+}
+
+.footer-top-context {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 76px;
+  margin-bottom: 15px;
+}
+
+.footer-top-context p{
+  margin-bottom: 0;
+}
+
+.footer-bottom-context p{
+  margin-bottom: 0;
+}
