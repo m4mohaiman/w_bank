@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+
+.navbar-area {
+  background-color: #03733A;
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 51px;
+}
+.navbar-area__title p {
+  margin-bottom: 0;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.custom-label {
+  font-size: 18px;
+  color: #707070;
+  text-align: center;
+}
+
+.after-logo-content-item ul {
+  padding: 0;
+}
+
+.after-logo-content-item ul li {
+  list-style: none;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,16 @@
+.navbar-area {
+  background-color: $baseColor;
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 51px;
+  &__title {
+    p {
+      margin-bottom: 0;
+      display: block;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: $baseLight;;
+    }
+  }
+}
