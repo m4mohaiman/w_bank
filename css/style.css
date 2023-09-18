@@ -198,6 +198,20 @@ body {
   color: #fff;
 }
 
+.stwo-input{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.stwo-input p{
+  margin-bottom: 0;
+}
+
+.loan-amount-result-area-s4{
+  padding:95px 0;
+}
+
 
 /* footer */
 .footer {
