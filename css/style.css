@@ -150,6 +150,55 @@ body {
   border: 1px solid #707070;
 }
 
+/* screen 2 css */
+.custom-href-btn{
+  border: 1px solid #707070;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 11px;
+  transition: 0.5s all ease-in-out;
+  padding: 10px 20px;
+}
+
+.custom-href-btn:hover{
+  background-color: #fff;
+  color: #03733a;
+}
+
+.loan-amount-result-area{
+  border: 1px solid #707070;
+  padding: 15px 0px;
+  border-radius: 11px;
+}
+
+.loan-amount-result-area p{
+  font-size: 34px;
+  color: #707070;
+}
+
+.lara-amount {
+  font-size: 30px;
+}
+
+.lara-amount span{
+  font-size: 47px;
+}
+
+.custom-primary-btn{
+  background-color: #03733a;
+  font-size: 24px;
+  padding: 5px 40px;
+  color: #fff;
+}
+
+.custom-primary-btn:hover{
+  background-color: #014723dc;
+  color: #fff;
+}
+
+
 /* footer */
 .footer {
   border-top: 1px solid #707070;
