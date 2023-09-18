@@ -151,7 +151,7 @@ body {
 }
 
 /* screen 2 css */
-.custom-href-btn{
+.custom-href-btn {
   border: 1px solid #707070;
   text-decoration: none;
   font-size: 25px;
@@ -162,18 +162,18 @@ body {
   padding: 10px 20px;
 }
 
-.custom-href-btn:hover{
+.custom-href-btn:hover {
   background-color: #fff;
   color: #03733a;
 }
 
-.loan-amount-result-area{
+.loan-amount-result-area {
   border: 1px solid #707070;
   padding: 15px 0px;
   border-radius: 11px;
 }
 
-.loan-amount-result-area p{
+.loan-amount-result-area p {
   font-size: 34px;
   color: #707070;
 }
@@ -182,36 +182,58 @@ body {
   font-size: 30px;
 }
 
-.lara-amount span{
+.lara-amount span {
   font-size: 47px;
 }
 
-.custom-primary-btn{
+.custom-primary-btn {
   background-color: #03733a;
   font-size: 24px;
   padding: 5px 40px;
   color: #fff;
 }
 
-.custom-primary-btn:hover{
+.custom-primary-btn:hover {
   background-color: #014723dc;
   color: #fff;
 }
 
-.stwo-input{
+.stwo-input {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.stwo-input p{
+.stwo-input p {
   margin-bottom: 0;
 }
 
-.loan-amount-result-area-s4{
-  padding:95px 0;
+.loan-amount-result-area-s4 {
+  padding: 95px 0;
 }
 
+.home-screen-modal-body p {
+  font-size: 16px;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+.homepageModal .modal-content {
+  border: 1px solid #707070;
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.homepageModal .modal-footer {
+  border: none;
+  justify-content: center;
+}
+
+.homepage-trems-condition {
+  color: #707070;
+  text-decoration: none;
+  margin-left: 40px;
+}
 
 /* footer */
 .footer {

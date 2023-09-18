@@ -7,7 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <!-- <link rel="stylesheet" href="./css/bootstrap.min.rtl.css" /> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
 
     <link rel="stylesheet" href="./css/style.css" />
     <title>مرحبا بالعالم!</title>
@@ -102,7 +107,12 @@
                 <div class="col-sm-7">
                   <div class="form-check custom-checkbox-from-check">
                     <input class="form-check-input" type="checkbox" value="" />
-                    <a role="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                    <a
+                      role="button"
+                      class="homepage-trems-condition"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
                       قرأت وأوافق على الشروط والأحكام
                     </a>
                   </div>
@@ -168,28 +178,73 @@
       </div>
     </section>
 
-
     <!-- terms and condition model -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+    <div
+      class="modal fade homepageModal"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+          <div class="text-center">
+            <h5 class="modal-title">الشروط والأحكام</h5>
           </div>
-          <div class="modal-body">
-            ...
+          <div class="modal-body home-screen-modal-body" dir="ltr">
+            <p>Sample Data Usage Agreement</p>
+            <p class="mb-3">
+              **Note: This is a sample DUA for datasets that have de-identified
+              human subject data
+            </p>
+            <p class="mb-3">
+              This is an agreement (“Agreement”) between you the downloader
+              (“Downloader”) and the owner of the materials (“User”) governing
+              the use of the materials (“Materials”) to be downloaded.
+            </p>
+            <p class="mb-3">I. Acceptance of this Agreement</p>
+            <p class="mb-3`">
+              By downloading or otherwise accessing the Materials, Downloader
+              represents his/her acceptance of the terms of this Agreement.
+            </p>
+            <p class="mb-3">II. Modification of this Agreement</p>
+            <p class="mb-3">
+              Users may modify the terms of this Agreement at any time. However,
+              any modifications to this Agreement will only be effective for
+              downloads subsequent to such modification. No modifications will
+              supersede any previous terms that were in effect at the time of
+              the Downloader’s download.
+            </p>
+            <p class="mb-1">III. Use of the Materials</p>
+            <p>
+              Use of the Materials include but are not limited to viewing parts
+              or the whole of the content included in the Materials; comparing
+              data or content from the Materials with data or content in other
+              Materials; verifying research results with the content included in
+              the Materials; and extracting and/or appropriating any part of the
+              content included in the Materials for use in other projects,
+              publications, research, or other related work products.
+            </p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn custom-btn">أوافق</button>
+            <button
+              type="button"
+              class="btn custom-btn"
+              data-bs-dismiss="modal"
+            >
+              أرفض
+            </button>
           </div>
         </div>
       </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
