@@ -235,35 +235,33 @@ body {
   margin-left: 40px;
 }
 
-
 /* user info */
-.after-login-navbar{
+.after-login-navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   direction: ltr;
 }
 
-.al-navbar-title{
+.al-navbar-title {
   flex: 1;
 }
 
-.user-thumbnail{
+.user-thumbnail {
   display: flex;
   align-items: center;
   justify-content: center;
   direction: rtl;
 }
 
-.user-info p{
+.user-info p {
   margin-bottom: 0;
   margin-right: 20px;
-  color:#fff;
+  color: #fff;
   font-weight: 700;
 }
 
-
-.user-thumbnail-img img{
+.user-thumbnail-img img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
@@ -284,23 +282,20 @@ body {
   color: black;
   padding: 16px;
   text-decoration: none;
- 
 }
- 
+
 .sidebar a.active {
-  background-color: #03733A;
+  background-color: #03733a;
   color: white;
 }
 
-
 /* sidebar content */
-.main-content-area-with-sidebar{
+.main-content-area-with-sidebar {
   display: flex;
   flex-direction: row-reverse;
   direction: rtl;
   padding: 0;
 }
-
 
 /* pic upload css */
 .profile-pic-wrapper {
@@ -434,16 +429,44 @@ body {
   }
 }
 
-.gap-25{
+.gap-25 {
   gap: 25px;
 }
 
-.profile-info-title{
+.profile-info-title {
   font-size: 22px;
   margin-bottom: 25px;
   font-weight: 500;
 }
 
+.filter-button-area ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.filter-button-area ul li {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.filter-button-area ul li a {
+  text-decoration: none;
+  color: #707070;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.filter-button-area {
+  display: flex;
+  justify-content: center;
+}
+
+
+.custom-pagination .page-link{
+  color: #707070;
+}
 
 /* footer */
 .footer {
