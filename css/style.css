@@ -453,19 +453,27 @@ body {
 .filter-button-area ul li a {
   text-decoration: none;
   color: #707070;
-    font-size: 18px;
-    cursor: pointer;
+  font-size: 18px;
+  cursor: pointer;
 }
-
 
 .filter-button-area {
   display: flex;
   justify-content: center;
 }
 
-
-.custom-pagination .page-link{
+.custom-pagination .page-link {
   color: #707070;
+}
+
+.bg-btn-green {
+  background-color: #03733a;
+  color: #fff;
+  border: 1px solid #03733a;
+}
+
+.dir-default {
+  direction: inherit;
 }
 
 /* footer */
